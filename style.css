@@ -1,0 +1,39 @@
+.hero{
+    background-color: #1F2937;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    
+}
+.logo{
+    display: flex;
+    margin-left: 200px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF9;
+}
+.links{
+    font-size: 18px;
+    font-weight: 200;
+    display: flex;
+    margin-right: 100px;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.header-content{
+    display: flex;
+}
+img{
+    height: 250px;
+    width: auto;
+}

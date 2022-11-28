@@ -1,7 +1,6 @@
 .hero{
     background-color: #1F2937;
     display: flex;
-    margin: 0;
     flex-direction: column;
     
 }
@@ -23,7 +22,7 @@
     font-size: 18px;
     font-weight: 200;
     display: flex;
-    margin-right: 100px;
+    margin-right: 110px;
     gap: 20px;
 }
 a{
@@ -36,4 +35,39 @@ a{
 img{
     height: 250px;
     width: auto;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 110px;
+    gap: 25px;
+    margin-left: 200px;
+    margin-right: 110px;
+}
+.maintext{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    
+}
+.subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.left-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.right-img{
+    display: flex;
+    
+}
+button{
+    background-color: #3882F6;
+    color:#E5E7EB;
+    font-size: 18px;
+    font-weight: 700;
+    
 }

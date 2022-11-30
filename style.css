@@ -29,17 +29,14 @@ a{
     text-decoration: none;
     color: #E5E7EB;
 }
-.header-content{
-    display: flex;
-}
 img{
     height: 250px;
     width: auto;
 }
 .header-content{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
     margin-top: 110px;
     gap: 25px;
     margin-left: 200px;
@@ -49,25 +46,32 @@ img{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    
+   
 }
 .subtext{
     font-size: 18px;
     color: #E5E7EB;
+    
 }
 .left-text{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: start;
+    padding: 10px;
 }
 .right-img{
     display: flex;
-    
 }
 button{
     background-color: #3882F6;
     color:#E5E7EB;
     font-size: 18px;
     font-weight: 700;
-    
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    box-sizing:content-box;
+    width: fit-content;
+    padding: 8px 15px;
 }

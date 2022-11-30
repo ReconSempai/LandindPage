@@ -29,7 +29,7 @@ a{
     text-decoration: none;
     color: #E5E7EB;
 }
-img{
+.hero-img{
     height: 250px;
     width: auto;
 }
@@ -74,4 +74,37 @@ button{
     box-sizing:content-box;
     width: fit-content;
     padding: 8px 15px;
+}
+#title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+.middle-section{
+    display: flex;
+    flex-direction: column;
+}
+#img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.insp-quote{
+    display: flex;
+    padding: 20px 10px;
+    margin-top: 20px;
+    background-color: #E5E7EB;
+    justify-self: flex-end;
+}
+
+.img-desc{
+    display: flex;
+    flex-direction: column;   
+}
+.middle-img{
+    height: 120px;
+    width: 120px;
 }

@@ -166,3 +166,21 @@ button{
     height: auto;
     width: 600px;
 }
+
+.bottom-section{
+    display: flex;
+    background-color: #3882F6;
+    color:#E5E7EB ;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 110px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 55px;
+    padding-right: 55px;
+}

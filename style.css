@@ -85,6 +85,11 @@ button{
     box-sizing:content-box;
     width: fit-content;
     padding: 8px 15px;
+    
+}
+
+.top-button{
+    border: none;
 }
 
 #title{
@@ -170,7 +175,7 @@ button{
 .bottom-section{
     display: flex;
     background-color: #3882F6;
-    color:#E5E7EB ;
+    color:#F9FAF8 ;
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -178,9 +183,18 @@ button{
     margin-right: 110px;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 100px;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 55px;
     padding-right: 55px;
+    border-radius: 10px;
+}
+
+.bottom-title{
+    font-weight: bold;
+    font-size: 25px;
+}
+.bottom-button{
+    border-color: white;
 }

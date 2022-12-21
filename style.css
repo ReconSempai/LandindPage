@@ -2,8 +2,9 @@
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    
+    padding-bottom: 50px;
 }
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -11,6 +12,7 @@
     height: 50px;
     
 }
+
 .logo{
     display: flex;
     margin-left: 200px;
@@ -18,6 +20,7 @@
     font-weight: 700;
     color: #F9FAF9;
 }
+
 .links{
     font-size: 18px;
     font-weight: 200;
@@ -25,14 +28,17 @@
     margin-right: 110px;
     gap: 20px;
 }
+
 a{
     text-decoration: none;
     color: #E5E7EB;
 }
+
 .hero-img{
     height: 250px;
     width: auto;
 }
+
 .header-content{
     display: flex;
     justify-content: center;
@@ -42,17 +48,20 @@ a{
     margin-left: 200px;
     margin-right: 110px;
 }
+
 .maintext{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
    
 }
+
 .subtext{
     font-size: 18px;
     color: #E5E7EB;
     
 }
+
 .left-text{
     display: flex;
     flex-direction: column;
@@ -60,9 +69,11 @@ a{
     justify-content: start;
     padding: 10px;
 }
+
 .right-img{
     display: flex;
 }
+
 button{
     background-color: #3882F6;
     color:#E5E7EB;
@@ -75,36 +86,83 @@ button{
     width: fit-content;
     padding: 8px 15px;
 }
+
 #title{
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
     text-align: center;
+    margin-bottom: 30px;
 }
+
 .middle-section{
     display: flex;
     flex-direction: column;
+
 }
+
 #img{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
-    
+    align-items: center;
+    gap: 80px; 
 }
+
 .insp-quote{
     display: flex;
-    padding: 20px 10px;
     margin-top: 20px;
     background-color: #E5E7EB;
-    justify-self: flex-end;
+    padding-left: 200px;
+    padding-right: 110px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
 }
 
 .img-desc{
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: auto;
 }
+
 .middle-img{
-    height: 120px;
-    width: 120px;
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+
+.img-subtext{
+    display: flex;
+    height: auto;
+    width:155px ;
+    font-size: small;
+    text-align: center;
+    word-wrap: break-word;
+    font-weight: bold;
+}
+
+.quote{
+    display: flex;
+    font-size: 36px;
+    font-weight: light;
+    color: #1F2937;
+    font-family: italic;
+}
+
+.signature{
+    display: flex;
+    align-self: flex-end;
+    
+}
+
+.insp-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 600px;
 }

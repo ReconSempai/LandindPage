@@ -198,3 +198,12 @@ button{
 .bottom-button{
     border-color: white;
 }
+
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    color: #F9FAF8;
+    padding-top: 45px;
+    padding-bottom: 45px;
+
+}
